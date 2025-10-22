@@ -26,14 +26,15 @@ export const AboutSection = ()=> {
                             landscape.
                         </p>
 
-                        <div className=" space-x-8 py-6">
-                            <a href="#contact" className="cosmic-button">
-                                {" "} Get in Touch
-                            </a>
-                            <a href="" className="px-6 py-2 font-bold rounded-full border-2 border-primary text-primary hower:bg-red transition-colors-duration-300">
-                                Download CV
-                            </a>
-                        </div>
+                      <div className="flex flex-col justify-center space-y-4 py-7 sm:flex-row sm:space-x-4 sm:space-y-1">
+                          <a href="#contact" className="cosmic-button text-center">
+                              Get in Touch
+                          </a>
+                          <a href="" className="px-5 py-1.5 font-bold rounded-full border-2 border-primary text-primary transition-colors duration-300 text-center">
+                              Download CV
+                          </a>
+                      </div>
+
                     </div>
 
           <div className="grid grid-cols-1 gap-6">
